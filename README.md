@@ -1,7 +1,7 @@
-# SA2 - Object Detection with YOLOv26: Bike vs. Motor Classification
+# SA2 - Object Detection with YOLOv26: Bike vs. Motor Detection
 
 ## Project Overview
-This repository contains the model training, evaluation, and diagnostic analysis for the **SA2 - Video-Based Data Gathering for Machine Learning Research** activity. The objective of this project is to deploy the YOLOv26 architecture to accurately detect and classify two specific vehicle types: **Bikes** and **Motors**. 
+This repository contains the model training, evaluation, and diagnostic analysis for the **SA2 - Implementing YOLOv26 with NMS-Free Detection** activity. The objective of this project is to deploy the YOLOv26 architecture to accurately detect and classify two specific vehicle types: **Bikes** and **Motors**. 
 
 Beyond basic training, this project critically analyzes the model's performance through confusion matrices and statistical metrics (mAP50, Precision, Recall, F1 Score) to determine its readiness for real-world deployment.
 
