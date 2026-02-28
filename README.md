@@ -24,11 +24,11 @@ Three separate models were initialized and trained to compare how different hype
 ## Performance Metrics & Evaluation
 After validation, the models achieved the following statistical results:
 
-| Model | mAP50 | Precision | Recall | F1 Score |
-| :--- | :---: | :---: | :---: | :---: |
-| **Model 1** | [INSERT] | [INSERT] | [INSERT] | [INSERT] |
-| **Model 2** | [INSERT] | [INSERT] | [INSERT] | [INSERT] |
-| **Model 3** | [INSERT] | [INSERT] | [INSERT] | [INSERT] |
+| Metric | Model 1 (AdamW \| 25 epochs) | Model 2 (SGD \| 30 epochs) | Model 3 (Auto \| 40 epochs) |
+| :--- | :--- | :--- | :--- |
+| **True Positives** <br>*(Diagonal)* | **180** <br>(82 Bike, 98 Motor) | **198** <br>(89 Bike, 109 Motor) | **211** <br>(94 Bike, 117 Motor) |
+| **False Positives** <br>*(Background misclassified as object)* | **120** <br>(54 Bike, 66 Motor) | **94** <br>(22 Bike, 72 Motor) | **84** <br>(28 Bike, 56 Motor) |
+| **False Negatives** <br>*(Missed detections)* | **86** <br>(30 Bike, 56 Motor) | **70** <br>(22 Bike, 48 Motor) | **59** <br>(19 Bike, 40 Motor) |
 
 ### Diagnostic Outputs
 *Please refer to the `assets/` folder in this repository for the exported Confusion Matrices and real-time loss graphs.*
